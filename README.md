@@ -44,7 +44,7 @@ The Event Manager is a system that allows clients to request and organize events
 
 ## Usage
 
-1. Access the Event Manager system by visiting `http://localhost:8000` in your web browser.
+1. Access the Event Manager system by visiting `http://localhost:8000` or `http://127.0.0.1:8000` in your web browser.
 
 2. Clients can create an account and submit event requests through the provided interface.
 

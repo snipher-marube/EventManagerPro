@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-At Event Manager, we take security seriously. If you believe you have found a security vulnerability in our project, we encourage you to let us know right away. We appreciate your efforts and will do our best to address the issue promptly.
+At EventManagerPro, we take security seriously. If you believe you have found a security vulnerability in our project, we encourage you to let us know right away. We appreciate your efforts and will do our best to address the issue promptly.
 
 To report a security vulnerability, please send an email to [sniphermarube[at]gmail.com](mailto:sniphermarube@gmail.com) with the following details:
 
@@ -23,7 +23,7 @@ Upon receiving a security vulnerability report, we will strive to follow these g
 
 ## Scope
 
-This security policy applies to vulnerabilities discovered in ([Event Manager's GitHub repository](https://github.com/princekhunt/privateping)).
+This security policy applies to vulnerabilities discovered in ([Event Manager's GitHub repository](https://github.com/snipher-marube/EventManagerPro.git)).
 
 Please note that this policy does not cover security vulnerabilities in third-party dependencies. If you believe a vulnerability exists in a third-party dependency used by PrivatePing, please follow responsible disclosure practices and report it directly to the maintainers of the affected project.
 
@@ -31,4 +31,4 @@ Please note that this policy does not cover security vulnerabilities in third-pa
 
 As a token of our appreciation for responsibly disclosing security vulnerabilities, we may offer rewards or acknowledgments to individuals who report valid vulnerabilities. The nature and extent of any reward will be determined at our discretion.
 
-We greatly value your assistance in helping us maintain the security of PrivatePing. Thank you for your contributions to the safety and integrity of our project.
+We greatly value your assistance in helping us maintain the security of EventManagerPro. Thank you for your contributions to the safety and integrity of our project.
