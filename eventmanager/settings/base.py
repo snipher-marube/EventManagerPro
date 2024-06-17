@@ -21,6 +21,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # third-party apps
+    'compressor',
+    
     # local apps
     'pages.apps.PagesConfig'
 ]
@@ -99,6 +102,12 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / "../static"]
 
 STATIC_ROOT = BASE_DIR / "../static/staticfiles"
+
+COMPRESS_ROOT = BASE_DIR / '../static'
+
+COMPRESS_ENABLED = True
+
+STATICFILES_FINDERS = ('compressor.finders.CompressorFinder',)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
