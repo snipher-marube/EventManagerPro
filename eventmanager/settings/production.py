@@ -16,7 +16,7 @@ DATABASES = {
 DEBUG = False
 
 # Allowed hosts
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv())
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*', cast=Csv())
 
 # Static and media files settings
 STATIC_URL = '/static/'
