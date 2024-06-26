@@ -37,6 +37,7 @@ DATABASES = {
 
 ALLOWED_HOSTS = [
     'localhost',
+    '.vercel.app',
 ]
 
 DOMAIN = "http://localhost:8000"
