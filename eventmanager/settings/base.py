@@ -10,6 +10,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -121,7 +123,6 @@ STORAGES = {
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 
 
