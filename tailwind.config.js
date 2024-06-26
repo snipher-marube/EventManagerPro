@@ -5,9 +5,9 @@
 
 export const content = [
   "./templates/**/*.html",
-  "./node_modules/tw-elements/js/**/*.js",
+  "./node_modules/flowbite/**/*.js",
 ];
 export const theme = {
   extend: {},
 };
-export const plugins = [require("tw-elements/plugin.cjs")];
+export const plugins = [require("flowbite/plugin")];

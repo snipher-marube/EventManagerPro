@@ -25,7 +25,8 @@ INSTALLED_APPS = [
     'compressor',
     
     # local apps
-    'pages.apps.PagesConfig'
+    'pages.apps.PagesConfig',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
