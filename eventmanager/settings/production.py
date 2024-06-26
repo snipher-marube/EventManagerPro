@@ -13,7 +13,7 @@ DATABASES = {
 }
 
 # Disable debug mode
-DEBUG = False
+DEBUG = True
 
 # Allowed hosts
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*', cast=Csv())
