@@ -2,9 +2,7 @@ from .base import *
 from decouple import config
 from django.core.management.utils import get_random_secret_key
 
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY', default=get_random_secret_key())
-
 DEBUG = True
 
 LOGGING = {
@@ -23,9 +21,6 @@ LOGGING = {
     },
 }
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -33,15 +28,19 @@ DATABASES = {
     }
 }
 
-
-
-ALLOWED_HOSTS = [
-    'localhost',
-    '.vercel.app',
-]
-
+ALLOWED_HOSTS = ['localhost', '.vercel.app']
 DOMAIN = "http://localhost:8000"
 SECURE_SSL_REDIRECT = False
-
 CSRF_TRUSTED_ORIGINS = ["http://localhost:8000"]
 
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+        "OPTIONS": {
+            "location": BASE_DIR / "media",
+        },
+    },
+}
