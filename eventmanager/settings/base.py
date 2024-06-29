@@ -126,6 +126,9 @@ CKEDITOR_5_CONFIGS = {
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "../static",
+]
 STATIC_ROOT = BASE_DIR / "../static/staticfiles"
 COMPRESS_ROOT = BASE_DIR / '../static'
 COMPRESS_ENABLED = True
@@ -135,9 +138,7 @@ STATICFILES_FINDERS = (
     'compressor.finders.CompressorFinder',
 )
 
-STATICFILES_DIRS = [
-    BASE_DIR / "../static",
-]
+
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
